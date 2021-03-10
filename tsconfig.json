@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "outDir": "./dist-esm",
+    "declarationDir": "./types",
+    "target": "ES2015",
+    "lib": ["DOM", "ES2019"],
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": false
+  },
+  "exclude": [
+    "node_modules",
+    "types",
+    "dist",
+    "dist-esm"
+  ]
+}
