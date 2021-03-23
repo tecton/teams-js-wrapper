@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "for bug reproducing",
   "main": "dist/index.js",
-  "module": "dist-esm/index.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "tsc -p . && rollup -c",
